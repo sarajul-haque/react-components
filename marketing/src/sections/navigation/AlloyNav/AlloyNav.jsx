@@ -6,7 +6,7 @@ const AlloyNav = () => {
     return (
 
        <section>
-         <nav className="navbar">
+         <nav className="alloy-nav">
             <div>
                 <h1>alloy</h1>
                 <ul>

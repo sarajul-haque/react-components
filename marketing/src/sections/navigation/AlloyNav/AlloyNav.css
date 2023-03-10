@@ -1,4 +1,4 @@
-.navbar{
+.alloy-nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -9,11 +9,11 @@ select{
     border: none;
 }
 
-.navbar > div:first-child{
+.alloy-nav > div:first-child{
     display: flex;
     align-items: center;
 }
-.navbar > div:last-child{
+.alloy-nav > div:last-child{
     display: flex;
     align-items: center;
 }
