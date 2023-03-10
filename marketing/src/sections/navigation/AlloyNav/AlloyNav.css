@@ -1,4 +1,4 @@
-nav{
+.navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -9,11 +9,11 @@ select{
     border: none;
 }
 
-nav > div:first-child{
+.navbar > div:first-child{
     display: flex;
     align-items: center;
 }
-nav > div:last-child{
+.navbar > div:last-child{
     display: flex;
     align-items: center;
 }
