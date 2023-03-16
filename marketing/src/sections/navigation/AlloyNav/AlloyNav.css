@@ -37,13 +37,14 @@ hr {
     list-style: none;
 }
 
-.alloy-nav a:hover {
-    transition: transform 0.5s;
-    transform: scale(1.1);
-    background-color: #ebe7e7;
-    border: 1px solid #ebe7e7;
-    border-radius: 5px;
+.alloy-nav span {
     padding: 3px 8px;
+    border-radius: 5px;
+
+}
+
+.alloy-nav span:hover {
+    background-color: #ebe7e7;
 }
 
 .alloy-nav {
@@ -70,13 +71,13 @@ ul {
     align-items: center;
     position: absolute;
     border: 1px solid;
-    margin: 45px -145px;
+    margin: 49px -170px;
     padding: 0px 50px;
     border-radius: 8px;
     background-color: white;
     border: none;
     box-sizing: border-box;
-    width: 1055px;
+    width: 1160px;
 }
 
 p {
@@ -113,19 +114,18 @@ h4 {
 
 h4:hover {
     transition: transform 0.5s;
-    transform: scale(1.1);
     background-color: #ebe7e7;
     border: 1px solid #ebe7e7;
     border-radius: 5px;
 }
 
-.alloy-right-nav a:hover {
-    transition: transform 0.5s;
-    transform: scale(1.1);
-    background-color: #ebe7e7;
-    border: 1px solid #ebe7e7;
+.alloy-right-nav span {
     border-radius: 5px;
     padding: 3px 8px;
+}
+
+.alloy-right-nav span:hover {
+    background-color: #ebe7e7;
 }
 
 button {
@@ -137,6 +137,6 @@ button {
 }
 
 button:hover {
-    transform: scale(1.1);
     transition: transform 0.5s;
+    background-color: gray;
 }
