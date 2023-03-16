@@ -20,11 +20,11 @@ const ProductMenu = () => (
                         <hr />
                     </div>
                     <div className="product-items">
-                        <h4 href="">Ecommerce & Product</h4>
-                        <h4 href="">Marketing</h4>
-                        <h4 href="">Logistics & Support</h4>
-                        <h4 href="">Data & Analytics</h4>
-                        <h4 href="">Pricing</h4>
+                        <a href=""><span>Ecommerce & Product</span></a>
+                        <a href=""><span>Marketing</span></a>
+                        <a href=""><span>Logistics & Support</span></a>
+                        <a href=""><span>Data & Analytics</span></a>
+                        <a href=""><span>Pricing</span></a>
                     </div></div>
                 <div>
                     <div className="menu-items">
@@ -40,11 +40,11 @@ const ProductMenu = () => (
                         <hr />
                     </div>
                     <div className="product-items">
-                        <h4 href="">Marketing</h4>
-                        <h4 href="">Fintech</h4>
-                        <h4 href="">Logistics & Support</h4>
-                        <h4 href="">For all SaaS</h4>
-                        <h4 href="">Book Demo</h4>
+                        <a href=""><span>Marketing</span></a>
+                        <a href=""><span>Fintech</span></a>
+                        <a href=""><span>Logistics & Support</span></a>
+                        <a href=""><span>For all SaaS</span></a>
+                        <a href=""><span>Book Demo</span></a>
                     </div></div>
             </li>
         </ul>

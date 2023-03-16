@@ -73,7 +73,6 @@ ul {
     display: flex;
     align-items: center;
     position: absolute;
-    /* padding: 0px 50px; */
     border-radius: 8px;
     background-color: white;
     width: 1160px;
@@ -90,7 +89,7 @@ p {
 .menu-items {
     display: flex;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 10px;
     gap: 20px;
 }
 
@@ -111,7 +110,12 @@ p {
 }
 
 h4 {
-    font-weight: normal;
+    font-weight: bold;
+}
+
+.product-items span {
+    display: flex;
+    left: 0;
 }
 
 h4:hover {
