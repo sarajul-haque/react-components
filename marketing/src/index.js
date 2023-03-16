@@ -5,11 +5,12 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import AlloyNav from "./sections/navigation/AlloyNav/AlloyNav";
 import HeadStream from "./sections/hero/HeadStream/HeadStream";
+import BlueSimple from "./sections/navigation/Blue-Simple/Blue-Simple";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <AlloyNav />
+
   </React.StrictMode>
 );
 
