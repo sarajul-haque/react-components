@@ -134,6 +134,7 @@ nav.truework-nav {
 .solution-menu-list>ul.closed {
     width: 0;
     opacity: 0;
+    display: none;
 }
 
 .sub-solution-menu {
