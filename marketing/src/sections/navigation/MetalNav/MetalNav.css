@@ -1,8 +1,4 @@
-.alloy-container {
-    background-color: #c0bbbb;
-}
-
-nav.alloy-nav {
+nav.metal-nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -18,51 +14,51 @@ nav.alloy-nav {
     border-bottom: 2px solid #c0bbbb;
 }
 
-.alloy-nav>div:first-child {
+.metal-nav>div:first-child {
     display: flex;
     align-items: center;
 }
 
-.alloy-nav>div:last-child {
+.metal-nav>div:last-child {
     display: flex;
     align-items: center;
 }
 
-.alloy-nav a {
+.metal-nav a {
     text-decoration: none;
     margin: 20px;
     color: black;
     font-weight: 500;
 }
 
-.alloy-nav p {
+.metal-nav p {
     color: grey;
 }
 
-.alloy-nav span {
+.metal-nav span {
     padding: 3px 8px;
     border-radius: 5px;
 
 }
 
-.alloy-nav span:hover {
+.metal-nav span:hover {
     background-color: #ebe7e7;
 }
 
-.alloy-title {
+.metal-nav .alloy-title {
     font-weight: 900;
     color: #000;
     font-size: 1.5rem;
     margin-left: 10px;
 }
 
-.product-menu-list ul {
+.metal-nav .product-menu-list ul {
     list-style: none;
     padding: 20px;
     margin: 0;
 }
 
-.product-menu-list {
+.metal-nav .product-menu-list {
     display: flex;
     align-items: center;
     position: absolute;
@@ -74,49 +70,49 @@ nav.alloy-nav {
     right: 0;
 }
 
-.product-menu-list p {
+.metal-nav .product-menu-list p {
     margin-top: 0;
     font-weight: normal;
 }
 
-.product-menu-items {
+.metal-nav .product-menu-items {
     display: flex;
     align-items: center;
     margin-top: 10px;
     gap: 20px;
 }
 
-.product-menu-items>div:last-child {
+.metal-nav .product-menu-items>div:last-child {
     font-weight: bold;
     font-size: 1.1rem;
 }
 
-.product-menu-items img {
+.metal-nav .product-menu-items img {
     background-color: #dcdcdc;
     padding: 5px 8px;
     border-radius: 5px;
 }
 
-.product-menu-li {
+.metal-nav .product-menu-li {
     display: flex;
     gap: 50px;
 }
 
-.product-items span {
+.metal-nav .product-items span {
     display: flex;
     left: 0;
 }
 
-.alloy-right-nav span {
+.metal-right-nav span {
     border-radius: 5px;
     padding: 3px 8px;
 }
 
-.alloy-right-nav span:hover {
+.metal-right-nav span:hover {
     background-color: #ebe7e7;
 }
 
-.alloy-nav button {
+.metal-nav button {
     padding: 10px 30px;
     background-color: #4242d8;
     color: white;
@@ -124,7 +120,7 @@ nav.alloy-nav {
     border: none;
 }
 
-.alloy-nav button:hover {
+.metal-nav button:hover {
     transition: transform 0.5s;
     background-color: gray;
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import "./AlloyNav.css"
+import "./MetalNav.css"
 
 const ProductMenu = () => (
 
@@ -51,13 +51,13 @@ const ProductMenu = () => (
     </nav>
 );
 
-const AlloyNav = () => {
+const MetalNav = () => {
 
     const [isOpen, setOpen] = React.useState(false)
 
     return (
 
-        <nav className="alloy-nav">
+        <nav className="metal-nav">
             <div>
                 <img id="alloy-logo" src='/img/sections/hero/HeadStream/alloyLogos.png' alt='' height={30} />
                 <a className="alloy-title" href="">Alloy</a>
@@ -78,7 +78,7 @@ const AlloyNav = () => {
                 <a href=""><span>Resources</span></a>
 
             </div>
-            <div className="alloy-right-nav">
+            <div className="metal-right-nav">
                 <a href=""><span>Book Demo</span></a>
                 <a href=""><span>Login</span></a>
                 <button>Try it free</button>
@@ -89,4 +89,4 @@ const AlloyNav = () => {
     );
 };
 
-export default AlloyNav;
+export default MetalNav;

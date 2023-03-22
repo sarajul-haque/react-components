@@ -3,12 +3,12 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import BlueSimple from "./sections/navigation/BlueSimple/BlueSimple";
-import AlloyNav from "./sections/navigation/AlloyNav/AlloyNav";
+import MetalNav from "./sections/navigation/MetalNav/MetalNav";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <AlloyNav />
+    <MetalNav />
   </React.StrictMode>
 );
 
