@@ -1,0 +1,131 @@
+.mobile-nav-links {
+    display: none;
+}
+
+nav.omnisend-nav .hamburger .slice {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #000;
+    cursor: pointer;
+    margin-right: 0;
+    position: relative;
+    transition: all .5s ease-in;
+}
+
+nav.omnisend-nav .hamburger .slice:not(:last-child) {
+    margin-bottom: 4px;
+}
+
+nav.omnisend-nav .hamburger-open .slice-2 {
+    opacity: 0;
+    height: 0;
+}
+
+nav.omnisend-nav .hamburger-open .slice-1 {
+    transform: rotate(45deg) translate(5px);
+}
+
+nav.omnisend-nav .hamburger-open .slice-3 {
+    transform: rotate(-45deg) translate(5px);
+}
+
+.omnisend-mobile-nav-links a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #2E3280;
+    font-weight: 600;
+    z-index: 0;
+    text-decoration: none;
+    margin-top: -5px;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 415px) {
+
+    .omnisend-nav>div:nth-child(2),
+    .omnisend-nav>div:nth-child(3) {
+        display: none;
+    }
+
+    nav.omnisend-nav {
+        padding: 20px 20px;
+    }
+
+    .hamburger {
+        display: flex;
+        gap: 20px;
+    }
+
+    .omnisend-mobile-nav-links {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        background-color: #fff;
+        gap: 20px;
+        z-index: -1;
+        position: relative;
+        transition: transform .3s ease-in;
+    }
+
+    .omnisend-nav .feature-menu-list>ul.closed {
+        display: none;
+    }
+
+    .omnisend-mobile-links-close {
+        transform: translateY(-280%);
+        transform-origin: top;
+    }
+
+    .omnisend-mobile-links-open {
+        transform: translateY();
+        position: relative;
+        z-index: -1;
+    }
+
+    .features-menu-container {
+        position: relative;
+        top: 0;
+
+    }
+
+    .features-menu-container h3 {
+        margin: 25px;
+        font-weight: 500;
+        font-size: 15px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #ACB5B4;
+        margin-bottom: 16px;
+    }
+
+    .mobile-sub-menu-link h5 {
+        margin: 25px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .shortcuts-feature>div {
+        margin: 0px;
+    }
+
+    .features-menu-container ul {
+        list-style: none;
+    }
+
+    .mobile-menu-close {
+        transform: translateY(-140%);
+        transform-origin: top;
+        display: none;
+    }
+
+    .mobile-menu-open {
+        transform: translateY();
+
+    }
+
+
+
+}
