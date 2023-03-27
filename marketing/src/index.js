@@ -3,10 +3,11 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import BlueSimple from "./sections/navigation/BlueSimple/BlueSimple";
+import TrueworkNav from "./sections/navigation/TrueworkNav/TrueworkNav";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BlueSimple />
+    <TrueworkNav />
   </React.StrictMode>
 );
 

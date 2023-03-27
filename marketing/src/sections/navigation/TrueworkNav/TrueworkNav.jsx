@@ -1,7 +1,6 @@
 import React from "react";
 import "./TrueworkNav.css"
-import SolutionMenuUpperText from "./SolutionMenuUpperText.js";
-import SolutionMenuLowerText from "./SolutionMenuLowerText";
+import { SolutionMenuUpperText, SolutionMenuLowerText } from "./SolutionMenu.js";
 import "./TrueworkResponsive.css"
 
 
@@ -251,7 +250,6 @@ const TrueworkNav = () => {
 
             </div>
 
-            {/* <div> <SolutionMenu show={isOpen} /></div> */}
 
 
 
